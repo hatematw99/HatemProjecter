@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="fam-care">
+    <test name="setup" >
+        <classes>
+            <class name="Setup"/>
+        </classes>
+    </test>
+    <test name="Training Test">
+
+        <classes>
+            <class name="Setup" />
+            <class name="HomePageTest" />
+            <class name="AcademyTest" />
+            <class name="BlogTest" />
+            <class name="TestWhoWeAre" />
+            <class name="SpecialistsTesting" />
+            <class name="organizationTesting" />
+            <class name="TearDown" />
+        </classes>
+
+    </test>
+</suite>
